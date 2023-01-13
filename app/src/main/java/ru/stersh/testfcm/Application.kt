@@ -21,7 +21,6 @@ class MyApplication : Application() {
                 .detectLeakedSqlLiteObjects()
                 .detectLeakedClosableObjects()
                 .penaltyLog()
-                .penaltyDeath()
                 .build()
         )
         super.onCreate()
